@@ -1,0 +1,235 @@
+2019-01-25 14:08:15,487 ERROR 14284 [-/127.0.0.1/-/21ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (f:\personal\eggDemo\egg-demo\node_modules\egg\lib\application.js:257:15)
+    at Object.get cookies [as cookies] (f:\personal\eggDemo\egg-demo\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (f:\personal\eggDemo\egg-demo\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (f:\personal\eggDemo\egg-demo\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (f:\personal\eggDemo\egg-demo\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (f:\personal\eggDemo\egg-demo\node_modules\koa-compose\index.js:42:32)
+    at f:\personal\eggDemo\egg-demo\node_modules\koa-compose\index.js:34:12
+    at dispatch (f:\personal\eggDemo\egg-demo\node_modules\koa-compose\index.js:42:32)
+    at session (f:\personal\eggDemo\egg-demo\node_modules\koa-session\index.js:41:13)
+    at dispatch (f:\personal\eggDemo\egg-demo\node_modules\koa-compose\index.js:42:32)
+
+pid: 14284
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 14:09:37,216 ERROR 15852 [-/127.0.0.1/-/3ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for f:\personal\eggDemo\egg-demo\app\view\index.html
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 15852
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:08:21,332 ERROR 8856 [-/127.0.0.1/-/8ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8856
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:09:32,677 ERROR 13952 [-/127.0.0.1/-/8ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13952
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:10:14,206 ERROR 18032 [-/127.0.0.1/-/13ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18032
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:10:20,069 ERROR 18032 [-/127.0.0.1/-/1ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18032
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:18:52,394 ERROR 5676 [-/127.0.0.1/-/8ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 5676
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:27:20,790 ERROR 14168 [-/127.0.0.1/-/9ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14168
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:30:15,993 ERROR 8648 [-/127.0.0.1/-/4ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8648
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:35:59,634 ERROR 17308 [-/127.0.0.1/-/8ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 17308
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:48:43,603 ERROR 9132 [-/127.0.0.1/-/10ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 9132
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:51:20,348 ERROR 10272 [-/127.0.0.1/-/21ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10272
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:53:31,601 ERROR 18056 [-/127.0.0.1/-/7ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18056
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 16:54:22,609 ERROR 18056 [-/127.0.0.1/-/1ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18056
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 17:00:51,163 ERROR 11672 [-/127.0.0.1/-/12ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (f:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 11672
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 17:03:04,352 ERROR 16788 [-/127.0.0.1/-/10ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 16788
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 17:12:28,568 ERROR 17364 [-/127.0.0.1/-/10ms GET /time] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 17364
+hostname: DESKTOP-KH4MOC7
+
+2019-01-25 17:12:38,939 ERROR 17364 [-/127.0.0.1/-/1ms GET /list] nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "nunjucks"
+    at ContextView.[contextView#getViewEngine] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (F:\personal\eggDemo\egg-demo\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 17364
+hostname: DESKTOP-KH4MOC7
+
